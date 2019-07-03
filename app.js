@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 // Déclaration de ma route
-app.use('/api/v1/stickers', stickers);
+app.use('/api/stickers', stickers);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
