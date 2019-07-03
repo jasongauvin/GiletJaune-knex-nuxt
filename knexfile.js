@@ -5,10 +5,10 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: 'postgres://localhost/cjs-web-store'
+    connection: 'postgres://localhost/yellow-book'
   },
   test: {
     client: 'pg',
-    connection: 'postgres://localhost/test-cjs-web-store'
+    connection: 'postgres://localhost/test-yellow-book'
   }
 };

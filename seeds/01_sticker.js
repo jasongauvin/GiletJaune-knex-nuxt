@@ -1,4 +1,4 @@
-const stickers = require('../stickers');
+const stickers = require('../fixtures/stickerFixtures');
 
 exports.seed = function(knex, Promise) {
   // Deletes ALL existing entries
